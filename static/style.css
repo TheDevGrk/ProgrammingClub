@@ -1,0 +1,81 @@
+/* Eli Gombis
+3/7/24
+Web Development 
+ */
+
+/*Body Styles*/
+body{
+    font-family: Montserrat;
+    background-color: rgb(52, 123, 152);
+  }
+  
+/*Nav Styles*/
+nav h1{
+  display: inline;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 60px;
+  color: #091535;
+  text-shadow: 5px 5px rgba(12, 26, 67, 20%);
+}
+
+nav button{
+  margin-right: 10px;
+  float: right;
+  border-radius: 16px;
+  color: #091535;
+  background-color: rgba(48, 239, 253, 8%);
+  font-size: 36px;
+  border-color: #E5F8D8;
+  border-style: solid;
+  border-width: 2px;
+  transition: 0.3s;
+}
+nav button:hover{
+  padding: 5px;
+  font-size: 42px;
+  text-shadow: 3px 3px rgba(12, 26, 67, 20%);
+}
+/*Link Styles*/
+a:link, a:visited{
+  text-decoration: none;
+  color: #091535;
+}
+
+/*Intro Styles*/
+#intro{
+  font-size: 40px;
+  color: #091535;
+  margin-top: 200px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#intro:hover{
+  text-shadow: 3px 3px rgba(12, 26, 67, 20%);
+}
+#intro a:hover{
+  text-decoration: underline;
+}
+
+/*Coming Soon Style*/
+#coming{
+  color: #091535;
+  text-shadow: 5px 5px rgba(12, 26, 67, 20%);
+  font-size: 72px;
+  padding-top: 250px;
+  text-align: center;
+}
+#easterEgg{
+  float: right;
+  margin-top: 100px;
+  font-size: 4px;
+}
+
+/*Verify Styles*/
+#verifySuccess{
+  margin-top: 250px;
+  font-size: 60px;
+  color: #091535;
+  text-shadow: 5px 5px rgba(12, 26, 67, 20%);
+}

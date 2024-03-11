@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+  Eli Gombis
+  3/7/24
+  Web Development 
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact Programming Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+  <link href="/static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Contact Programming Club</h1>
+      <button><a href = "contact">Contact Us</a></button>
+      <button><a href = "about">About Us</a></button>
+      <button><a href = "home">Home</a></button>
+    </nav>
+  </header>
+  <h1 style="text-align: center; padding-top: 300px;">Club Sponsor: Mr.Semaan gsemaan@lths.net<img style = "padding-left: 10px;width: 40px; height: 40px; position: absolute;" src = "{{ url_for('static', filename='gmail.png') }}"/></h1> 
+  <h1 style="text-align: center; padding-top: 50px;">Club Student President: Eli Gombis gom515933@d204.lths.net <img style = "padding-left: 10px;width: 40px; height: 40px; position: absolute;" src = "{{ url_for('static', filename='gmail.png') }}"/></h1>
+  <h1 style="text-align: center; padding-top: 50px;"><a href = "email-list">Interested in joining? Sign up for our email list!</a></h1>
+</body>
+
+</html>
